@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('#task').value = '';
         document.querySelector('#submit').disabled = true;
 
+
         // Stop form from submitting
         return false;
     };
